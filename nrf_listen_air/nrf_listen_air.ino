@@ -5,7 +5,6 @@
 #include "RF24.h"
 
 RF24 radio(9,10); // инициализировать модуль на пинах 9 и 10 Для Уно
-//RF24 radio(9,53);// Для Меги
 
 const uint8_t num_channels = 128;
 uint8_t values[num_channels];
